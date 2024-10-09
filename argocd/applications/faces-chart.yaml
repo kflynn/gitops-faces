@@ -13,7 +13,7 @@ spec:
   source:
     repoURL: ghcr.io/buoyantio
     chart: faces-chart
-    targetRevision: 1.6.0
+    targetRevision: 1.5.0
   destination:
     namespace: faces
     server: https://kubernetes.default.svc
