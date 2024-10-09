@@ -11,9 +11,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: registry-1.docker.io/dwflynn
+    repoURL: ghcr.io/buoyantio
     chart: faces-chart
-    targetRevision: 0.8.0
+    targetRevision: 1.6.0
   destination:
     namespace: faces
     server: https://kubernetes.default.svc
